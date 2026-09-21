@@ -85,14 +85,12 @@ Your score: 4
 ```
 
 ## Output Screenshot
-
 ![Output](output.png)
 
 ## Project Structure
 
 ```text
 Task-1-Purva-kurle
-├── .gitignore
 ├── NumberGame.java
 ├── README.md
 └── output.png
