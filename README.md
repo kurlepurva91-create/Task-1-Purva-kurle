@@ -41,3 +41,8 @@ The score is calculated based on the number of attempts used.
 
 ```bash
 javac NumberGame.java
+
+### Step 2: Run the program
+
+```bash
+java NumberGame
