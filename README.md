@@ -41,8 +41,63 @@ The score is calculated based on the number of attempts used.
 
 ```bash
 javac NumberGame.java
+```
 
 ### Step 2: Run the program
 
 ```bash
 java NumberGame
+```
+
+## Sample Output
+
+The program asks the user to enter a number between 1 and 100.
+
+```text
+================================
+       NUMBER GUESSING GAME
+================================
+Guess a number between 1 and 100
+You have 10 attempts.
+
+Enter your guess: 50
+Too high! Try again.
+
+Enter your guess: 40
+Too high! Try again.
+
+Enter your guess: 20
+Too low! Try again.
+
+Enter your guess: 35
+Too high! Try again.
+
+Enter your guess: 26
+Too low! Try again.
+
+Enter your guess: 32
+Too high! Try again.
+
+Enter your guess: 29
+Congratulations! You guessed it correctly.
+Number of attempts: 7
+Your score: 4
+```
+
+## Output Screenshot
+
+![Output](output.png)
+
+## Project Structure
+
+```text
+Task-1-Purva-kurle
+├── .gitignore
+├── NumberGame.java
+├── README.md
+└── output.png
+```
+
+## Conclusion
+
+This project helped me understand the basic concepts of Java such as random number generation, user input, loops, conditional statements and simple scoring logic.
